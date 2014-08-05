@@ -12,7 +12,7 @@
 	url = https://github.com/stackforge/puppet-cinder.git
 [submodule "concat"]
 	path = concat
-	url = https://github.com/ripienaar/puppet-concat.git
+	url = https://github.com/puppetlabs/puppetlabs-concat.git
 [submodule "firewall"]
 	path = firewall
 	url = https://github.com/puppetlabs/puppetlabs-firewall.git
@@ -31,9 +31,6 @@
 [submodule "inifile"]
 	path = inifile
 	url = https://github.com/puppetlabs/puppetlabs-inifile.git
-[submodule "keystone"]
-	path = keystone
-	url = https://github.com/stackforge/puppet-keystone.git
 [submodule "memcached"]
 	path = memcached
 	url = https://github.com/saz/puppet-memcached.git
@@ -43,9 +40,6 @@
 [submodule "mysql"]
 	path = mysql
 	url = https://github.com/packstack/puppetlabs-mysql.git
-[submodule "neutron"]
-	path = neutron
-	url = https://github.com/stackforge/puppet-neutron.git
 [submodule "nova"]
 	path = nova
 	url = https://github.com/stackforge/puppet-nova.git
@@ -90,7 +84,7 @@
 	url = https://github.com/stackforge/puppet-vswitch.git
 [submodule "xinetd"]
 	path = xinetd
-	url = https://github.com/packstack/puppetlabs-xinetd.git
+	url = https://github.com/puppetlabs/puppetlabs-xinetd.git
 [submodule "rabbitmq"]
 	path = rabbitmq
 	url = https://github.com/puppetlabs/puppetlabs-rabbitmq.git
@@ -115,3 +109,9 @@
 [submodule "sahara"]
 	path = sahara
 	url = https://github.com/stackforge/puppet-sahara.git
+[submodule "keystone"]
+	path = keystone
+	url = https://github.com/stackforge/puppet-keystone.git
+[submodule "neutron"]
+	path = neutron
+	url = https://github.com/stackforge/puppet-neutron.git
